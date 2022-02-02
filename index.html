@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora-IMC</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" href="./images/imc-.png">
+</head>
+<body>
+    <header id="cabecalho">
+        <h1 id="title">Calculadora-IMC</h1>
+    </header>
+    <main>
+        <div id="container">
+            <h2 id="title2">Seus dados</h2>
+            <div id="inputContainer">
+                <input class="camp" id="nome" type="text" name="nome" placeholder="Seu nome" onchange="nomeSelector()">
+                <input class="camp" id="peso" type="number" name="peso" placeholder="Seu peso" onchange="nomeSelector()">
+                <input class="camp" id="altura" type="number" name="altura" placeholder="Sua altura em cm" onchange="nomeSelector()"><br>
+                <input id="botao" type="button" name="botão" value="Calcular" onclick="calcular(this)">
+            </div>
+            <div id="resultado">
+                <h2 id="mostrarResultado"></h2>
+            </div>
+        </div>
+    </main>
+    <div id="credits">
+        <h3 id="title3">Desenvolvido por: Diego Augusto</h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

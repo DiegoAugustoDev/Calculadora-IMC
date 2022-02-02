@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#container{
+    width: 300px;
+    height: 500px;
+    background-color: #ed8e35;
+    margin: auto;
+    margin-top: 230px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px black;
+    margin-bottom: 20px;
+}
+
+@font-face {
+    font-family: MinhaFonte;
+    src: url("../fontes/Bebas_Neue/BebasNeue-Regular.ttf");
+}
+
+body{
+    font-family: MinhaFonte;
+    background-color: blanchedalmond;
+}
+
+#cabecalho{
+    width: 100%;
+    height: 8vh;
+    background-color: white;
+    text-align: center;
+}
+
+#title{
+    padding-top: 15px;
+}
+
+#title2{
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+#inputContainer{
+    text-align: center;
+}
+
+.camp{
+    width: 200px;
+    height: 20px;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+}
+
+#botao{
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(232, 234, 191);
+    box-shadow: 2px 2px 2px black;
+}
+
+#botao:hover{
+    cursor: pointer;
+}
+
+#resultado{
+    margin-top: 10px;
+    width: 300px;
+    height: 120px;
+    background-color: white;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 10px;
+}
+
+#mostrarResultado{
+    padding: 10px;
+}
+
+#title3{
+    text-align: center;
+}
+
+@media only screen and (max-width:600px){
+    #container{
+        margin-top: 65px;
+    }
+}
