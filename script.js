@@ -8,32 +8,32 @@ function calcular(i){
     let classificacao = ""
 
     if (imc <18.5){
-        classificacao = "abaixo do peso"
+        classificacao = "você está abaixo do peso"
     }
 
     else if (imc >=18.5 && imc <=24.9){
-        classificacao = "peso ideal"
+        classificacao = "você está no peso ideal"
     }
 
     else if (imc >=25 && imc <=29.9 ){
-        classificacao = "sobrepeso"
+        classificacao = " você está com sobrepeso"
     }
 
     else if (imc >=30 && imc <=34.9){
-        classificacao = "obesidade grau 1"
+        classificacao = "você está com obesidade grau 1"
     }
 
     else if (imc >=35 && imc <=39.9){
-        classificacao = "obesidade grau 2"
+        classificacao = "você está com obesidade grau 2"
     }
 
     else if (imc >=40){
-        classificacao = "obesidade grau 3"
+        classificacao = "você está com obesidade grau 3"
     }
 
   
 
 
     let h2 = document.getElementById("mostrarResultado")
-    h2.innerText = `${nome},seu imc é ${imc}. você está com ${classificacao}`
+    h2.innerText = `${nome},seu imc é ${imc}.${classificacao}`
 }
