@@ -3,7 +3,7 @@ function calcular(i){
     let peso = document.getElementById("peso").value
     let altura = document.getElementById("altura").value/100
 
-    let imc = Math.floor(peso /altura**2)
+    let imc = (peso /altura**2).toFixed(1)
 
     let classificacao = ""
 
