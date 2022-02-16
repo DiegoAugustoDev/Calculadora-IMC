@@ -35,5 +35,5 @@ function calcular(i){
 
 
     let h2 = document.getElementById("mostrarResultado")
-    h2.innerText = `${nome},seu imc é ${imc}.${classificacao}`
+    h2.innerText = `${nome},seu imc é ${imc} . ${classificacao}`
 }

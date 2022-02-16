@@ -16,14 +16,13 @@
         <div id="container">
             <h2 id="title2">Seus dados</h2>
             <div id="inputContainer">
-                <input class="camp" id="nome" type="text" name="nome" placeholder="Seu nome" onchange="nomeSelector()">
-                <input class="camp" id="peso" type="number" name="peso" placeholder="Seu peso" onchange="nomeSelector()">
-                <input class="camp" id="altura" type="number" name="altura" placeholder="Sua altura em cm" onchange="nomeSelector()"><br>
+                <input class="camp" id="nome" type="text" name="nome" placeholder="Seu nome" autocomplete="off">
+                <input class="camp" id="peso" type="number" name="peso" placeholder="Seu peso" autocomplete="off">
+                <input class="camp" id="altura" type="number" name="altura" placeholder="Sua altura em cm" autocomplete="off">
+                <h2 id="mostrarResultado"></h2>
                 <input id="botao" type="button" name="botão" value="Calcular" onclick="calcular(this)">
             </div>
-            <div id="resultado">
                 <h2 id="mostrarResultado"></h2>
-            </div>
         </div>
     </main>
     <div id="credits">
