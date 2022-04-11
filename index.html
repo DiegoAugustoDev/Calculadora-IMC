@@ -9,25 +9,26 @@
     <link rel="icon" href="./images/imc-.png">
 </head>
 <body>
-    <header id="cabecalho">
-        <h1 id="title">Calculadora-IMC</h1>
-    </header>
+
     <main>
-        <div id="container">
-            <h2 id="title2">Seus dados</h2>
-            <div id="inputContainer">
-                <input class="camp" id="nome" type="text" name="nome" placeholder="Seu nome" autocomplete="off">
-                <input class="camp" id="peso" type="number" name="peso" placeholder="Seu peso" autocomplete="off">
-                <input class="camp" id="altura" type="number" name="altura" placeholder="Sua altura em cm" autocomplete="off">
-                <h2 id="mostrarResultado"></h2>
-                <input id="botao" type="button" name="botão" value="Calcular" onclick="calcular(this)">
-            </div>
-                <h2 id="mostrarResultado"></h2>
-        </div>
-    </main>
-    <div id="credits">
-        <h3 id="title3">Desenvolvido por: Diego Augusto</h3>
+        <h2>Calculadora IMC</h2>
+        <div id="divAltura">
+        <label for="altura">Altura</label>
+        <input id="altura" type="number" placeholder="Digite sua altura em metros">
     </div>
+
+    <div id="divPeso">
+        <label for="peso">Peso</label>
+        <input id="peso" type="number" placeholder="Digite seu peso">
+    </div>
+    
+    <div id="divCalc">
+        <button id="btn">Calcular</button>
+    </div>
+
+    <span id="resultado"></span>
+    </main>
+
     <script src="script.js"></script>
 </body>
 </html>
