@@ -1,1 +1,1 @@
-Calculadora de IMC
+<h1>Calculadora IMC</h1>
